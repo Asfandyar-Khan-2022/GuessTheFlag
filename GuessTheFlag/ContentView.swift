@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
+        Button {
+            print("Button was tapped!")
+        } label: {
+            Label("edit", systemImage: "pencil")
+        }
+    }
+    
+    func executeDelete() {
+        print("Now deleting")
     }
 }
 
