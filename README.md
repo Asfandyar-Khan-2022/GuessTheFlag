@@ -17,7 +17,7 @@ At which point the user can reset the game or continue for another round.
 - Finally the reset method is used to reset the scores back to 0
 
 # App demo - Home screen
-![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9)
+<img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9"> width=50% height=50%>
 
 # App demo - Correct answer
 ![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9)
