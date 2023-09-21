@@ -15,3 +15,16 @@ At which point the user can reset the game or continue for another round.
 - The code has three methods. With flagTapped being used to keep count of the wrong and correct answers and also to reset the game when correct answer score reaches 8
 - The askQuestion method is used to shuffle the displayed flags
 - Finally the reset method is used to reset the scores back to 0
+
+# App demo - Home screen
+<img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
+
+# App demo - Correct answer
+![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9)
+
+# App demo - Incorrect answer
+![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/1d54fa2e-cbcb-4548-967e-50f13c21621f)
+
+# App demo - Completion screen
+![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/77a1e7fe-0ca3-4d01-88cd-1e9c80f285e0)
+
