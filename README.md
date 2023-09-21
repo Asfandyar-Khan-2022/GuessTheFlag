@@ -17,7 +17,10 @@ At which point the user can reset the game or continue for another round.
 - Finally the reset method is used to reset the scores back to 0
 
 # App demo - Home screen
+<p align="center">
 <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
+</p>
+
 
 # App demo - Correct answer
 <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9" width=25% height=25%>
