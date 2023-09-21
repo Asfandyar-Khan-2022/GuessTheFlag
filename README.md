@@ -18,7 +18,7 @@ At which point the user can reset the game or continue for another round.
 
 # App demo - Home screen
 <p align="center">
-<img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
+  <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
 </p>
 
 
