@@ -78,7 +78,7 @@ struct ContentView: View {
                 askQuestion()
             }
         } message: {
-            Text("You got 3 right")
+            Text("You got 8 right")
         }
         
         .alert(scoreTitle, isPresented: $showingScore) {
@@ -102,7 +102,7 @@ struct ContentView: View {
             scoreTitle = "Wrong! That's the flag of \(countries[number])"
             scoreWrong += 1
         }
-        if scoreCorrect == 3 {
+        if scoreCorrect == 8 {
             showingEndGame = true
         }else {
             showingScore = true
