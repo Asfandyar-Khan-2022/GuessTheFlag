@@ -20,7 +20,7 @@ At which point the user can reset the game or continue for another round.
 <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
 
 # App demo - Correct answer
-![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9)
+<img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9" width=25% height=25%>
 
 # App demo - Incorrect answer
 ![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/1d54fa2e-cbcb-4548-967e-50f13c21621f)
