@@ -5,7 +5,7 @@ The user is promted to pick a flag that corresponds with the displayed flag name
 If the answer is correct then the score is incremented by 1.
 Otherwise, the wrong score is incremented by one. 
 The game continues until the user identifies 8 flags correctly.
-At which point the user can reset the game or continue for another round.
+At which point the user can reset the game.
 
 # Code structure
 
@@ -17,14 +17,21 @@ At which point the user can reset the game or continue for another round.
 - Finally the reset method is used to reset the scores back to 0
 
 # App demo - Home screen
-<img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
+<p align="center">
+  <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/6667db71-0792-405b-92b7-9f037103abf9" width=25% height=25%>
+</p>
 
 # App demo - Correct answer
-![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9)
+<p align="center">
+  <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/7ff87733-5048-44c1-aa62-7545899a35c9" width=25% height=25%>
+</p>
 
 # App demo - Incorrect answer
-![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/1d54fa2e-cbcb-4548-967e-50f13c21621f)
+<p align="center">
+  <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/1d54fa2e-cbcb-4548-967e-50f13c21621f" width=25% height=25%>
+</p>
 
 # App demo - Completion screen
-![image](https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/77a1e7fe-0ca3-4d01-88cd-1e9c80f285e0)
-
+<p align="center">
+  <img src="https://github.com/Asfandyar-Khan-2022/GuessTheFlag/assets/117299102/77a1e7fe-0ca3-4d01-88cd-1e9c80f285e0" width=25% height=25%>
+</p>
