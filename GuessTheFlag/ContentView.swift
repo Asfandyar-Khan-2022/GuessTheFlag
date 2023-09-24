@@ -7,6 +7,24 @@
 
 import SwiftUI
 
+// Custom modifier to apply specific modifications to the flag.
+struct FlagImage: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 20)
+            .background(.thinMaterial)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+    }
+}
+
+// By adding an extention we can access the modifier directly.
+extension View {
+    func flagStyle() -> some View {
+        modifier(FlagImage())
+    }
+}
+
 
 /// This project shows three flags and asks the user to select one.
 /// If the selected flag corresponds to the name then the user gets a point.
@@ -16,8 +34,11 @@ struct ContentView: View {
     @State private var showingEndGame = false
     @State private var scoreTitle = ""
     @State private var scoreCorrect = 0
-    @State private var scoreWrong = 0
+    @State private var track = false
     
+    @State private var scoreWrong = 0
+    @State private var animationAmount = 0.0
+        
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
     
@@ -49,19 +70,26 @@ struct ContentView: View {
                     
                     ForEach(0..<3) { number in
                         Button {
+                            withAnimation{
+                                if number == correctAnswer {
+                                    animationAmount += 360
+                                }
+                            }
+                            
                             flagTapped(number)
+                            
                         } label: {
                             Image(countries[number])
                                 .renderingMode(.original)
                                 .clipShape(Capsule())
                                 .shadow(radius: 5)
+                                .rotation3DEffect(.degrees((number == correctAnswer) ? animationAmount : 0), axis: (x: 1, y:0, z:0))
+                                .scaleEffect((number != correctAnswer && showingScore) ? 0.5 : 1)
+                                .opacity((number != correctAnswer && showingScore) ? 0.4 : 1)
                         }
                     }
                 }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 20)
-                .background(.thinMaterial)
-                .clipShape(RoundedRectangle(cornerRadius: 20))
+                .flagStyle()
                 
                 Spacer()
                 Spacer()
